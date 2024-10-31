@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  app:
+    image: roomvu-frontend:latest
+    container_name: roomvu-frontend
+    restart: always
+    # volumes:
+    #   - .:/web
+    ports:
+      - 3000:3000

@@ -25,10 +25,10 @@ const formatDate = (date) => {
       <h2 class="text-2xl font-bold text-pink-500 mb-2">
         {{ post.title }}
       </h2>
-      <p class="text-white mb-2">
+      <p class="text-black dark:text-white mb-2">
         {{ formatDate(post.date) }}
       </p>
-      <p class="text-white">{{ post.body }}</p>
+      <p class="text-black dark:text-white">{{ post.body }}</p>
     </article>
   </div>
 </template>
